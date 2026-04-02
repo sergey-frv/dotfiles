@@ -11,5 +11,8 @@ vim.opt.fileformat = "unix"
 vim.opt.fileformats = { "unix", "dos", "mac" }
 
 -- Specify spellcheck languages
-vim.opt.spell = true               -- Enable spellchecking
+vim.opt.spell = true -- Enable spellchecking
 vim.opt.spelllang = { "en", "ru" } -- Set languages
+
+-- Temporary autoformat off
+-- vim.g.autoformat = false
